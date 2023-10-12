@@ -1,0 +1,15 @@
+﻿{
+  "name": "IIS1Бригадир",
+  "modelName": "i-i-s-1-бригадир",
+  "className": "Бригадир",
+  "nameSpace": "IIS.1",
+  "parentModelName": "i-i-s-1-сотрудник",
+  "parentClassName": "Сотрудник",
+  "attrs": [],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
