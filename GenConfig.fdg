@@ -16,7 +16,7 @@
         "Build": false,
         "GitClone": false,
         "GitPush": false,
-        "GhPagesPush": false,
+        "GhPagesPush": true,
         "EmberMetadata": false
       },
       "ApacheCordova": {
@@ -46,7 +46,7 @@
       },
       "PostgreSql": {
         "DiffSql": false,
-        "FullSql": false,
+        "FullSql": true,
         "LiquibaseSql": false,
         "Security": false,
         "AdminUser": false,
