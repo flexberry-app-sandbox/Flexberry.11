@@ -4,6 +4,7 @@ import DS from 'ember-data';
 import { validator } from 'ember-cp-validations';
 
 export let Model = Mixin.create({
+  время: DS.attr('date'),
   времяНачала: DS.attr('date'),
   времяОкончания: DS.attr('date'),
   числоЧасов: DS.attr('decimal'),
@@ -12,6 +13,13 @@ export let Model = Mixin.create({
 });
 
 export let ValidationRules = {
+  время: {
+    descriptionKey: 'models.i-i-s-1-график-работы-сотрудника.validations.время.__caption__',
+    validators: [
+      validator('ds-error'),
+      validator('date'),
+    ],
+  },
   времяНачала: {
     descriptionKey: 'models.i-i-s-1-график-работы-сотрудника.validations.времяНачала.__caption__',
     validators: [

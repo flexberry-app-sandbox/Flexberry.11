@@ -23,6 +23,15 @@
       "defaultValue": "",
       "stored": true,
       "ordered": false
+    },
+    {
+      "name": "причина",
+      "type": "i-i-s-1-типы-занятости",
+      "flexberryType": "ТипыЗанятости",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
     }
   ],
   "belongsTo": [

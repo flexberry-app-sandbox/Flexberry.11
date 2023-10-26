@@ -53,6 +53,8 @@ CREATE TABLE [ОтсутствиеСотрудника] (
 
 	 [ДатаОкончания] DATETIME  NULL,
 
+	 [Причина] VARCHAR(8)  NULL,
+
 	 [Сотрудник_m0] UNIQUEIDENTIFIER  NULL,
 
 	 [Сотрудник_m1] UNIQUEIDENTIFIER  NULL,
@@ -65,6 +67,8 @@ CREATE TABLE [ОтсутствиеСотрудника] (
 CREATE TABLE [ГрафикРаботыСотрудника] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [Время] DATETIME  NULL,
 
 	 [времяНачала] DATETIME  NULL,
 
@@ -87,13 +91,13 @@ CREATE TABLE [Бригадир] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [имя] VARCHAR(255)  NULL,
-
-	 [фамилия] VARCHAR(255)  NULL,
+	 [номер] INT  NULL,
 
 	 [отчетство] VARCHAR(255)  NULL,
 
-	 [номер] INT  NULL,
+	 [имя] VARCHAR(255)  NULL,
+
+	 [фамилия] VARCHAR(255)  NULL,
 
 	 [Должности] UNIQUEIDENTIFIER  NOT NULL,
 
@@ -115,13 +119,13 @@ CREATE TABLE [Работник] (
 
 	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
 
-	 [имя] VARCHAR(255)  NULL,
-
-	 [фамилия] VARCHAR(255)  NULL,
+	 [номер] INT  NULL,
 
 	 [отчетство] VARCHAR(255)  NULL,
 
-	 [номер] INT  NULL,
+	 [имя] VARCHAR(255)  NULL,
+
+	 [фамилия] VARCHAR(255)  NULL,
 
 	 [Должности] UNIQUEIDENTIFIER  NOT NULL,
 

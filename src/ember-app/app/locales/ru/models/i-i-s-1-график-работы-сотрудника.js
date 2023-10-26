@@ -2,6 +2,9 @@ export default {
   projections: {
   },
   validations: {
+    время: {
+      __caption__: 'время'
+    },
     времяНачала: {
       __caption__: 'времяНачала'
     },

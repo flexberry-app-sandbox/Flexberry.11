@@ -31,13 +31,13 @@ namespace IIS.1
     public class Сотрудник : ICSSoft.STORMNET.DataObject
     {
         
-        private string fимя;
-        
-        private string fфамилия;
+        private int fномер;
         
         private string fотчетство;
         
-        private int fномер;
+        private string fимя;
+        
+        private string fфамилия;
         
         private IIS.1.Должности fДолжности;
         

@@ -7,6 +7,15 @@
   "parentClassName": null,
   "attrs": [
     {
+      "name": "время",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
       "name": "времяНачала",
       "type": "date",
       "flexberryType": "DateTime",

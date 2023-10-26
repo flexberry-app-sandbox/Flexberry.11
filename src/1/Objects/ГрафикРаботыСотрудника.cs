@@ -31,11 +31,13 @@ namespace IIS.1
     public class ГрафикРаботыСотрудника : ICSSoft.STORMNET.DataObject
     {
         
-        private double fчислоЧасов;
-        
         private System.DateTime fвремяНачала;
         
+        private double fчислоЧасов;
+        
         private System.DateTime fвремяОкончания;
+        
+        private System.DateTime fВремя;
         
         private IIS.1.ТабельСмены fТабельСмены;
         
@@ -45,6 +47,37 @@ namespace IIS.1
 
         // *** End programmer edit section *** (ГрафикРаботыСотрудника CustomMembers)
 
+        
+        /// <summary>
+        /// Время.
+        /// </summary>
+        // *** Start programmer edit section *** (ГрафикРаботыСотрудника.Время CustomAttributes)
+
+        // *** End programmer edit section *** (ГрафикРаботыСотрудника.Время CustomAttributes)
+        public virtual System.DateTime Время
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ГрафикРаботыСотрудника.Время Get start)
+
+                // *** End programmer edit section *** (ГрафикРаботыСотрудника.Время Get start)
+                System.DateTime result = this.fВремя;
+                // *** Start programmer edit section *** (ГрафикРаботыСотрудника.Время Get end)
+
+                // *** End programmer edit section *** (ГрафикРаботыСотрудника.Время Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ГрафикРаботыСотрудника.Время Set start)
+
+                // *** End programmer edit section *** (ГрафикРаботыСотрудника.Время Set start)
+                this.fВремя = value;
+                // *** Start programmer edit section *** (ГрафикРаботыСотрудника.Время Set end)
+
+                // *** End programmer edit section *** (ГрафикРаботыСотрудника.Время Set end)
+            }
+        }
         
         /// <summary>
         /// времяНачала.

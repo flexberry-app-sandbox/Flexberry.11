@@ -35,6 +35,8 @@ namespace IIS.1
         
         private System.DateTime fДатаНачала;
         
+        private IIS.1.ТипыЗанятости fПричина;
+        
         private IIS.1.Сотрудник fСотрудник;
         
         // *** Start programmer edit section *** (ОтсутствиеСотрудника CustomMembers)
@@ -101,6 +103,37 @@ namespace IIS.1
                 // *** Start programmer edit section *** (ОтсутствиеСотрудника.ДатаОкончания Set end)
 
                 // *** End programmer edit section *** (ОтсутствиеСотрудника.ДатаОкончания Set end)
+            }
+        }
+        
+        /// <summary>
+        /// Причина.
+        /// </summary>
+        // *** Start programmer edit section *** (ОтсутствиеСотрудника.Причина CustomAttributes)
+
+        // *** End programmer edit section *** (ОтсутствиеСотрудника.Причина CustomAttributes)
+        public virtual IIS.1.ТипыЗанятости Причина
+        {
+            get
+            {
+                // *** Start programmer edit section *** (ОтсутствиеСотрудника.Причина Get start)
+
+                // *** End programmer edit section *** (ОтсутствиеСотрудника.Причина Get start)
+                IIS.1.ТипыЗанятости result = this.fПричина;
+                // *** Start programmer edit section *** (ОтсутствиеСотрудника.Причина Get end)
+
+                // *** End programmer edit section *** (ОтсутствиеСотрудника.Причина Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (ОтсутствиеСотрудника.Причина Set start)
+
+                // *** End programmer edit section *** (ОтсутствиеСотрудника.Причина Set start)
+                this.fПричина = value;
+                // *** Start programmer edit section *** (ОтсутствиеСотрудника.Причина Set end)
+
+                // *** End programmer edit section *** (ОтсутствиеСотрудника.Причина Set end)
             }
         }
         
