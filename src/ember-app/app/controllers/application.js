@@ -19,7 +19,13 @@ export default Controller.extend({
           caption: i18n.t('forms.application.sitemap.index.caption'),
           title: i18n.t('forms.application.sitemap.index.title'),
           children: null
-        }, 
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.new-folder1.caption'),
+          title: i18n.t('forms.application.sitemap.new-folder1.title'),
+          children: null
+        }
       ]
     };
   }),

@@ -1,6 +1,14 @@
 ﻿{
   "applicationCaption": "ИнтерфейсПользователя",
   "applicationTitle": "",
-  "items": [],
+  "items": [
+    {
+      "link": null,
+      "menuName": "new-folder1",
+      "caption": "NewFolder1",
+      "title": "NewFolder1",
+      "children": null
+    }
+  ],
   "mobile": true
 }

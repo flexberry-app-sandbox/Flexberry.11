@@ -88,7 +88,10 @@ $.extend(true, translations, {
           caption: 'Главная',
           title: ''
         },
-
+        'new-folder1': {
+          caption: 'NewFolder1',
+          title: 'NewFolder1'
+        }
       }
     },
 
