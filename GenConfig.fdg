@@ -45,12 +45,12 @@
         "ConnectionString": null
       },
       "PostgreSql": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
-        "LiquibaseSql": false,
-        "Security": false,
-        "AdminUser": false,
-        "ConnectionString": null
+        "LiquibaseSql": true,
+        "Security": true,
+        "AdminUser": true,
+        "ConnectionString": "Id"
       },
       "ClickHouse": {
         "DiffSql": false,
